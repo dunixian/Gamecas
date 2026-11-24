@@ -1,0 +1,6 @@
+{
+  "name": "CAS Waterpark - Taman Petualangan: Tiket Yang Hilang",
+  "description": "Jelajahi empat dunia tropis di CAS Water Park Cikole, Pandeglang. Kumpulkan koin, temukan tiket yang hilang, dan taklukkan wahana air serta satwa!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

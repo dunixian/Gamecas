@@ -1,0 +1,1458 @@
+{
+  "project": "CAS Waterpark - Adventure Park: The Lost Tickets",
+  "domain": "https://games.caswaterpark.com",
+  "generatedAt": "2026-11-24T06:04:01.943Z",
+  "totalAssets": 145,
+  "assets": [
+    {
+      "id": "CHAR_001",
+      "name": "Player Boy",
+      "path": "/assets/characters/CHAR_001_player_boy.jpg",
+      "format": "jpg",
+      "dimensions": "1024x1024",
+      "frames": 1,
+      "level": "all",
+      "description": "Cheerful boy adventurer portrait in aqua & orange CAS vest"
+    },
+    {
+      "id": "CHAR_002",
+      "name": "Player Girl",
+      "path": "/assets/characters/CHAR_002_player_girl.jpg",
+      "format": "jpg",
+      "dimensions": "1024x1024",
+      "frames": 1,
+      "level": "all",
+      "description": "Cheerful girl adventurer portrait in coral & turquoise CAS tunic"
+    },
+    {
+      "id": "ENV_001",
+      "name": "Swimming Pool Background",
+      "path": "/assets/environments/pool/ENV_001_swimming_pool_bg.jpg",
+      "format": "jpg",
+      "dimensions": "1920x1080",
+      "frames": 1,
+      "level": 1,
+      "description": "Sunny tropical pool resort background"
+    },
+    {
+      "id": "ENV_005",
+      "name": "Waterpark Background",
+      "path": "/assets/environments/waterpark/ENV_005_waterpark_bg.jpg",
+      "format": "jpg",
+      "dimensions": "1920x1080",
+      "frames": 1,
+      "level": 2,
+      "description": "Waterpark giant spiral slides and bucket tower background"
+    },
+    {
+      "id": "ENV_010",
+      "name": "Tropical Jungle",
+      "path": "/assets/environments/wildlife/ENV_010_tropical_jungle.jpg",
+      "format": "jpg",
+      "dimensions": "1920x1080",
+      "frames": 1,
+      "level": 3,
+      "description": "Sunlit wildlife park jungle sanctuary background"
+    },
+    {
+      "id": "ENV_015",
+      "name": "Outbound Entrance",
+      "path": "/assets/environments/outbound/ENV_015_outbound_entrance.jpg",
+      "format": "jpg",
+      "dimensions": "1920x1080",
+      "frames": 1,
+      "level": 4,
+      "description": "Mountain forest canopy zipline and suspension bridges background"
+    },
+    {
+      "id": "UI_002",
+      "name": "Main Menu Background",
+      "path": "/assets/ui/UI_002_menu_bg.jpg",
+      "format": "jpg",
+      "dimensions": "1920x1080",
+      "frames": 1,
+      "level": "menu",
+      "description": "CAS Waterpark Adventure Park key art backdrop"
+    },
+    {
+      "id": "CHAR_003",
+      "name": "Idle Animation",
+      "path": "/assets/characters/animations/CHAR_003_idle.svg",
+      "format": "svg",
+      "dimensions": "256x64",
+      "frames": 4,
+      "level": "all",
+      "description": "Idle Animation sprite strip"
+    },
+    {
+      "id": "CHAR_004",
+      "name": "Running Animation",
+      "path": "/assets/characters/animations/CHAR_004_run.svg",
+      "format": "svg",
+      "dimensions": "384x64",
+      "frames": 6,
+      "level": "all",
+      "description": "Running Animation sprite strip"
+    },
+    {
+      "id": "CHAR_005",
+      "name": "Jumping Animation",
+      "path": "/assets/characters/animations/CHAR_005_jump.svg",
+      "format": "svg",
+      "dimensions": "128x64",
+      "frames": 2,
+      "level": "all",
+      "description": "Jumping Animation sprite strip"
+    },
+    {
+      "id": "CHAR_006",
+      "name": "Double Jump Animation",
+      "path": "/assets/characters/animations/CHAR_006_double_jump.svg",
+      "format": "svg",
+      "dimensions": "256x64",
+      "frames": 4,
+      "level": "all",
+      "description": "Double Jump Animation sprite strip"
+    },
+    {
+      "id": "CHAR_007",
+      "name": "Landing Animation",
+      "path": "/assets/characters/animations/CHAR_007_land.svg",
+      "format": "svg",
+      "dimensions": "128x64",
+      "frames": 2,
+      "level": "all",
+      "description": "Landing Animation sprite strip"
+    },
+    {
+      "id": "CHAR_008",
+      "name": "Swimming Animation",
+      "path": "/assets/characters/animations/CHAR_008_swim.svg",
+      "format": "svg",
+      "dimensions": "256x64",
+      "frames": 4,
+      "level": "all",
+      "description": "Swimming Animation sprite strip"
+    },
+    {
+      "id": "CHAR_009",
+      "name": "Climbing Animation",
+      "path": "/assets/characters/animations/CHAR_009_climb.svg",
+      "format": "svg",
+      "dimensions": "256x64",
+      "frames": 4,
+      "level": "all",
+      "description": "Climbing Animation sprite strip"
+    },
+    {
+      "id": "CHAR_010",
+      "name": "Sliding Animation",
+      "path": "/assets/characters/animations/CHAR_010_slide.svg",
+      "format": "svg",
+      "dimensions": "128x64",
+      "frames": 2,
+      "level": "all",
+      "description": "Sliding Animation sprite strip"
+    },
+    {
+      "id": "CHAR_011",
+      "name": "Falling Animation",
+      "path": "/assets/characters/animations/CHAR_011_fall.svg",
+      "format": "svg",
+      "dimensions": "128x64",
+      "frames": 2,
+      "level": "all",
+      "description": "Falling Animation sprite strip"
+    },
+    {
+      "id": "CHAR_012",
+      "name": "Victory Animation",
+      "path": "/assets/characters/animations/CHAR_012_victory.svg",
+      "format": "svg",
+      "dimensions": "256x64",
+      "frames": 4,
+      "level": "all",
+      "description": "Victory Animation sprite strip"
+    },
+    {
+      "id": "CHAR_013",
+      "name": "Damage Animation",
+      "path": "/assets/characters/animations/CHAR_013_damage.svg",
+      "format": "svg",
+      "dimensions": "128x64",
+      "frames": 2,
+      "level": "all",
+      "description": "Damage Animation sprite strip"
+    },
+    {
+      "id": "CHAR_014",
+      "name": "Coin Pickup Animation",
+      "path": "/assets/characters/animations/CHAR_014_coin_pickup.svg",
+      "format": "svg",
+      "dimensions": "192x64",
+      "frames": 3,
+      "level": "all",
+      "description": "Coin Pickup Animation sprite strip"
+    },
+    {
+      "id": "CHAR_015",
+      "name": "Ticket Pickup Animation",
+      "path": "/assets/characters/animations/CHAR_015_ticket_pickup.svg",
+      "format": "svg",
+      "dimensions": "192x64",
+      "frames": 3,
+      "level": "all",
+      "description": "Ticket Pickup Animation sprite strip"
+    },
+    {
+      "id": "ENV_002",
+      "name": "Pool Landscape",
+      "path": "/assets/environments/pool/ENV_002_pool_landscape.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 1,
+      "description": "Pool Landscape scenery layer"
+    },
+    {
+      "id": "ENV_003",
+      "name": "Animated Pool Water",
+      "path": "/assets/environments/pool/ENV_003_pool_water.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 1,
+      "description": "Animated Pool Water scenery layer"
+    },
+    {
+      "id": "ENV_004",
+      "name": "Underwater Environment",
+      "path": "/assets/environments/pool/ENV_004_underwater.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 1,
+      "description": "Underwater Environment scenery layer"
+    },
+    {
+      "id": "ENV_006",
+      "name": "Giant Water Slides",
+      "path": "/assets/environments/waterpark/ENV_006_giant_slides.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 2,
+      "description": "Giant Water Slides scenery layer"
+    },
+    {
+      "id": "ENV_007",
+      "name": "Wave Pool",
+      "path": "/assets/environments/waterpark/ENV_007_wave_pool.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 2,
+      "description": "Wave Pool scenery layer"
+    },
+    {
+      "id": "ENV_008",
+      "name": "Lazy River",
+      "path": "/assets/environments/waterpark/ENV_008_lazy_river.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 2,
+      "description": "Lazy River scenery layer"
+    },
+    {
+      "id": "ENV_009",
+      "name": "Zoo Entrance",
+      "path": "/assets/environments/wildlife/ENV_009_zoo_entrance.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 3,
+      "description": "Zoo Entrance scenery layer"
+    },
+    {
+      "id": "ENV_011",
+      "name": "Elephant Habitat",
+      "path": "/assets/environments/wildlife/ENV_011_elephant_habitat.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 3,
+      "description": "Elephant Habitat scenery layer"
+    },
+    {
+      "id": "ENV_012",
+      "name": "Giraffe Habitat",
+      "path": "/assets/environments/wildlife/ENV_012_giraffe_habitat.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 3,
+      "description": "Giraffe Habitat scenery layer"
+    },
+    {
+      "id": "ENV_013",
+      "name": "Zebra Habitat",
+      "path": "/assets/environments/wildlife/ENV_013_zebra_habitat.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 3,
+      "description": "Zebra Habitat scenery layer"
+    },
+    {
+      "id": "ENV_014",
+      "name": "Safari Landscape",
+      "path": "/assets/environments/wildlife/ENV_014_safari_landscape.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 3,
+      "description": "Safari Landscape scenery layer"
+    },
+    {
+      "id": "ENV_016",
+      "name": "Rope Adventure Zone",
+      "path": "/assets/environments/outbound/ENV_016_rope_zone.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 4,
+      "description": "Rope Adventure Zone scenery layer"
+    },
+    {
+      "id": "ENV_017",
+      "name": "Climbing Zone",
+      "path": "/assets/environments/outbound/ENV_017_climbing_zone.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 4,
+      "description": "Climbing Zone scenery layer"
+    },
+    {
+      "id": "ENV_018",
+      "name": "Flying Fox Area",
+      "path": "/assets/environments/outbound/ENV_018_flying_fox.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 4,
+      "description": "Flying Fox Area scenery layer"
+    },
+    {
+      "id": "ENV_019",
+      "name": "Suspension Bridge",
+      "path": "/assets/environments/outbound/ENV_019_suspension_bridge.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 4,
+      "description": "Suspension Bridge scenery layer"
+    },
+    {
+      "id": "ENV_020",
+      "name": "Mountain Forest",
+      "path": "/assets/environments/outbound/ENV_020_mountain_forest.svg",
+      "format": "svg",
+      "dimensions": "256x128",
+      "frames": 1,
+      "level": 4,
+      "description": "Mountain Forest scenery layer"
+    },
+    {
+      "id": "FAC_001",
+      "name": "Swimming Pool",
+      "path": "/assets/facilities/FAC_001_swimming_pool.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 1,
+      "description": "Swimming Pool interactive facility"
+    },
+    {
+      "id": "FAC_002",
+      "name": "Children's Pool",
+      "path": "/assets/facilities/FAC_002_children_s_pool.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 1,
+      "description": "Children's Pool interactive facility"
+    },
+    {
+      "id": "FAC_003",
+      "name": "Small Water Slide",
+      "path": "/assets/facilities/FAC_003_small_water_slide.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 1,
+      "description": "Small Water Slide interactive facility"
+    },
+    {
+      "id": "FAC_004",
+      "name": "Spiral Water Slide",
+      "path": "/assets/facilities/FAC_004_spiral_water_slide.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 2,
+      "description": "Spiral Water Slide interactive facility"
+    },
+    {
+      "id": "FAC_005",
+      "name": "Diving Board",
+      "path": "/assets/facilities/FAC_005_diving_board.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 1,
+      "description": "Diving Board interactive facility"
+    },
+    {
+      "id": "FAC_006",
+      "name": "Pool Ladder",
+      "path": "/assets/facilities/FAC_006_pool_ladder.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 1,
+      "description": "Pool Ladder interactive facility"
+    },
+    {
+      "id": "FAC_007",
+      "name": "Inflatable Ring",
+      "path": "/assets/facilities/FAC_007_inflatable_ring.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 1,
+      "description": "Inflatable Ring interactive facility"
+    },
+    {
+      "id": "FAC_008",
+      "name": "Giant Water Slide",
+      "path": "/assets/facilities/FAC_008_giant_water_slide.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 2,
+      "description": "Giant Water Slide interactive facility"
+    },
+    {
+      "id": "FAC_009",
+      "name": "Wave Machine",
+      "path": "/assets/facilities/FAC_009_wave_machine.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 2,
+      "description": "Wave Machine interactive facility"
+    },
+    {
+      "id": "FAC_010",
+      "name": "Water Bucket",
+      "path": "/assets/facilities/FAC_010_water_bucket.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 2,
+      "description": "Water Bucket interactive facility"
+    },
+    {
+      "id": "FAC_011",
+      "name": "Zoo Entrance Gate",
+      "path": "/assets/facilities/FAC_011_zoo_entrance_gate.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 3,
+      "description": "Zoo Entrance Gate interactive facility"
+    },
+    {
+      "id": "FAC_012",
+      "name": "Elephant Shelter",
+      "path": "/assets/facilities/FAC_012_elephant_shelter.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 3,
+      "description": "Elephant Shelter interactive facility"
+    },
+    {
+      "id": "FAC_013",
+      "name": "Giraffe Shelter",
+      "path": "/assets/facilities/FAC_013_giraffe_shelter.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 3,
+      "description": "Giraffe Shelter interactive facility"
+    },
+    {
+      "id": "FAC_014",
+      "name": "Zebra Shelter",
+      "path": "/assets/facilities/FAC_014_zebra_shelter.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 3,
+      "description": "Zebra Shelter interactive facility"
+    },
+    {
+      "id": "FAC_015",
+      "name": "Animal Feeding Station",
+      "path": "/assets/facilities/FAC_015_animal_feeding_station.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 3,
+      "description": "Animal Feeding Station interactive facility"
+    },
+    {
+      "id": "FAC_016",
+      "name": "Safari Jeep",
+      "path": "/assets/facilities/FAC_016_safari_jeep.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 3,
+      "description": "Safari Jeep interactive facility"
+    },
+    {
+      "id": "FAC_017",
+      "name": "Wooden Bridge",
+      "path": "/assets/facilities/FAC_017_wooden_bridge.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 3,
+      "description": "Wooden Bridge interactive facility"
+    },
+    {
+      "id": "FAC_018",
+      "name": "Rope Bridge",
+      "path": "/assets/facilities/FAC_018_rope_bridge.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 4,
+      "description": "Rope Bridge interactive facility"
+    },
+    {
+      "id": "FAC_019",
+      "name": "Flying Fox",
+      "path": "/assets/facilities/FAC_019_flying_fox.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 4,
+      "description": "Flying Fox interactive facility"
+    },
+    {
+      "id": "FAC_020",
+      "name": "Climbing Wall",
+      "path": "/assets/facilities/FAC_020_climbing_wall.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 4,
+      "description": "Climbing Wall interactive facility"
+    },
+    {
+      "id": "FAC_021",
+      "name": "Rope Ladder",
+      "path": "/assets/facilities/FAC_021_rope_ladder.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 4,
+      "description": "Rope Ladder interactive facility"
+    },
+    {
+      "id": "FAC_022",
+      "name": "Balance Beam",
+      "path": "/assets/facilities/FAC_022_balance_beam.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 4,
+      "description": "Balance Beam interactive facility"
+    },
+    {
+      "id": "FAC_023",
+      "name": "Swinging Rope",
+      "path": "/assets/facilities/FAC_023_swinging_rope.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": 4,
+      "description": "Swinging Rope interactive facility"
+    },
+    {
+      "id": "FAC_024",
+      "name": "Checkpoint Gate",
+      "path": "/assets/facilities/FAC_024_checkpoint_gate.svg",
+      "format": "svg",
+      "dimensions": "96x96",
+      "frames": 1,
+      "level": "all",
+      "description": "Checkpoint Gate interactive facility"
+    },
+    {
+      "id": "ITEM_001",
+      "name": "Bronze Coin",
+      "path": "/assets/collectibles/ITEM_001_bronze_coin.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Bronze Coin collectible"
+    },
+    {
+      "id": "ITEM_002",
+      "name": "Silver Coin",
+      "path": "/assets/collectibles/ITEM_002_silver_coin.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Silver Coin collectible"
+    },
+    {
+      "id": "ITEM_003",
+      "name": "Gold Coin",
+      "path": "/assets/collectibles/ITEM_003_gold_coin.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Gold Coin collectible"
+    },
+    {
+      "id": "ITEM_004",
+      "name": "Normal Ticket",
+      "path": "/assets/collectibles/ITEM_004_normal_ticket.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Normal Ticket collectible"
+    },
+    {
+      "id": "ITEM_005",
+      "name": "VIP Ticket",
+      "path": "/assets/collectibles/ITEM_005_vip_ticket.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "VIP Ticket collectible"
+    },
+    {
+      "id": "ITEM_006",
+      "name": "Golden Ticket",
+      "path": "/assets/collectibles/ITEM_006_golden_ticket.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Golden Ticket collectible"
+    },
+    {
+      "id": "ITEM_007",
+      "name": "Mystery Ticket",
+      "path": "/assets/collectibles/ITEM_007_mystery_ticket.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Mystery Ticket collectible"
+    },
+    {
+      "id": "ITEM_008",
+      "name": "Treasure Chest",
+      "path": "/assets/collectibles/ITEM_008_treasure_chest.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Treasure Chest collectible"
+    },
+    {
+      "id": "ITEM_009",
+      "name": "Golden Key",
+      "path": "/assets/collectibles/ITEM_009_golden_key.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Golden Key collectible"
+    },
+    {
+      "id": "ITEM_010",
+      "name": "Diamond",
+      "path": "/assets/collectibles/ITEM_010_diamond.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Diamond collectible"
+    },
+    {
+      "id": "ITEM_011",
+      "name": "Energy Booster",
+      "path": "/assets/collectibles/ITEM_011_energy_booster.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Energy Booster collectible"
+    },
+    {
+      "id": "ITEM_012",
+      "name": "Speed Booster",
+      "path": "/assets/collectibles/ITEM_012_speed_booster.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Speed Booster collectible"
+    },
+    {
+      "id": "ITEM_013",
+      "name": "Extra Life",
+      "path": "/assets/collectibles/ITEM_013_extra_life.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Extra Life collectible"
+    },
+    {
+      "id": "ITEM_014",
+      "name": "Coin Magnet",
+      "path": "/assets/collectibles/ITEM_014_coin_magnet.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Coin Magnet collectible"
+    },
+    {
+      "id": "ITEM_015",
+      "name": "Shield",
+      "path": "/assets/collectibles/ITEM_015_shield.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Shield collectible"
+    },
+    {
+      "id": "OBS_001",
+      "name": "Wet Floor",
+      "path": "/assets/obstacles/OBS_001_wet_floor.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "all",
+      "description": "Wet Floor obstacle"
+    },
+    {
+      "id": "OBS_002",
+      "name": "Moving Platform",
+      "path": "/assets/obstacles/OBS_002_moving_platform.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "all",
+      "description": "Moving Platform obstacle"
+    },
+    {
+      "id": "OBS_003",
+      "name": "Water Current",
+      "path": "/assets/obstacles/OBS_003_water_current.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "all",
+      "description": "Water Current obstacle"
+    },
+    {
+      "id": "OBS_004",
+      "name": "Rotating Obstacle",
+      "path": "/assets/obstacles/OBS_004_rotating_obstacle.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "all",
+      "description": "Rotating Obstacle obstacle"
+    },
+    {
+      "id": "OBS_005",
+      "name": "Falling Log",
+      "path": "/assets/obstacles/OBS_005_falling_log.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "all",
+      "description": "Falling Log obstacle"
+    },
+    {
+      "id": "OBS_006",
+      "name": "Swinging Rope",
+      "path": "/assets/obstacles/OBS_006_swinging_rope.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "all",
+      "description": "Swinging Rope obstacle"
+    },
+    {
+      "id": "OBS_007",
+      "name": "Moving Bridge",
+      "path": "/assets/obstacles/OBS_007_moving_bridge.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "all",
+      "description": "Moving Bridge obstacle"
+    },
+    {
+      "id": "OBS_008",
+      "name": "Collapsing Platform",
+      "path": "/assets/obstacles/OBS_008_collapsing_platform.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "all",
+      "description": "Collapsing Platform obstacle"
+    },
+    {
+      "id": "OBS_009",
+      "name": "Splash Trap",
+      "path": "/assets/obstacles/OBS_009_splash_trap.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "all",
+      "description": "Splash Trap obstacle"
+    },
+    {
+      "id": "OBS_010",
+      "name": "Rolling Barrel",
+      "path": "/assets/obstacles/OBS_010_rolling_barrel.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "all",
+      "description": "Rolling Barrel obstacle"
+    },
+    {
+      "id": "OBS_011",
+      "name": "Moving Animal",
+      "path": "/assets/obstacles/OBS_011_moving_animal.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "all",
+      "description": "Moving Animal obstacle"
+    },
+    {
+      "id": "OBS_012",
+      "name": "Timed Gate",
+      "path": "/assets/obstacles/OBS_012_timed_gate.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "all",
+      "description": "Timed Gate obstacle"
+    },
+    {
+      "id": "FX_001",
+      "name": "Water Splash Particles",
+      "path": "/assets/effects/FX_001_water_splash.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Water Splash Particles particle sprite"
+    },
+    {
+      "id": "FX_002",
+      "name": "Coin Burst Particles",
+      "path": "/assets/effects/FX_002_coin_burst.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Coin Burst Particles particle sprite"
+    },
+    {
+      "id": "FX_003",
+      "name": "Bubble Trail",
+      "path": "/assets/effects/FX_003_bubbles.svg",
+      "format": "svg",
+      "dimensions": "48x48",
+      "frames": 1,
+      "level": "all",
+      "description": "Bubble Trail particle sprite"
+    },
+    {
+      "id": "UI_001",
+      "name": "Game Logo",
+      "path": "/assets/ui/UI_001_game_logo.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Game Logo interface asset"
+    },
+    {
+      "id": "UI_003",
+      "name": "Play Button",
+      "path": "/assets/ui/UI_003_play_button.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Play Button interface asset"
+    },
+    {
+      "id": "UI_004",
+      "name": "Pause Button",
+      "path": "/assets/ui/UI_004_pause_button.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Pause Button interface asset"
+    },
+    {
+      "id": "UI_005",
+      "name": "Resume Button",
+      "path": "/assets/ui/UI_005_resume_button.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Resume Button interface asset"
+    },
+    {
+      "id": "UI_006",
+      "name": "Restart Button",
+      "path": "/assets/ui/UI_006_restart_button.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Restart Button interface asset"
+    },
+    {
+      "id": "UI_007",
+      "name": "Home Button",
+      "path": "/assets/ui/UI_007_home_button.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Home Button interface asset"
+    },
+    {
+      "id": "UI_008",
+      "name": "Left Arrow",
+      "path": "/assets/ui/UI_008_left_arrow.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Left Arrow interface asset"
+    },
+    {
+      "id": "UI_009",
+      "name": "Right Arrow",
+      "path": "/assets/ui/UI_009_right_arrow.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Right Arrow interface asset"
+    },
+    {
+      "id": "UI_010",
+      "name": "Jump Button",
+      "path": "/assets/ui/UI_010_jump_button.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Jump Button interface asset"
+    },
+    {
+      "id": "UI_011",
+      "name": "Action Button",
+      "path": "/assets/ui/UI_011_action_button.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Action Button interface asset"
+    },
+    {
+      "id": "UI_012",
+      "name": "Coin Counter",
+      "path": "/assets/ui/UI_012_coin_counter.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Coin Counter interface asset"
+    },
+    {
+      "id": "UI_013",
+      "name": "Ticket Counter",
+      "path": "/assets/ui/UI_013_ticket_counter.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Ticket Counter interface asset"
+    },
+    {
+      "id": "UI_014",
+      "name": "Health Indicator",
+      "path": "/assets/ui/UI_014_health_indicator.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Health Indicator interface asset"
+    },
+    {
+      "id": "UI_015",
+      "name": "Progress Bar",
+      "path": "/assets/ui/UI_015_progress_bar.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Progress Bar interface asset"
+    },
+    {
+      "id": "UI_016",
+      "name": "Mission Panel",
+      "path": "/assets/ui/UI_016_mission_panel.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Mission Panel interface asset"
+    },
+    {
+      "id": "UI_017",
+      "name": "Victory Screen",
+      "path": "/assets/ui/UI_017_victory_screen.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Victory Screen interface asset"
+    },
+    {
+      "id": "UI_018",
+      "name": "Game Over Screen",
+      "path": "/assets/ui/UI_018_game_over_screen.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Game Over Screen interface asset"
+    },
+    {
+      "id": "UI_019",
+      "name": "Level Selection",
+      "path": "/assets/ui/UI_019_level_selection.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Level Selection interface asset"
+    },
+    {
+      "id": "UI_020",
+      "name": "Settings Panel",
+      "path": "/assets/ui/UI_020_settings_panel.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Settings Panel interface asset"
+    },
+    {
+      "id": "UI_021",
+      "name": "Sound Button",
+      "path": "/assets/ui/UI_021_sound_button.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Sound Button interface asset"
+    },
+    {
+      "id": "UI_022",
+      "name": "Music Button",
+      "path": "/assets/ui/UI_022_music_button.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Music Button interface asset"
+    },
+    {
+      "id": "UI_023",
+      "name": "Loading Screen",
+      "path": "/assets/ui/UI_023_loading_screen.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Loading Screen interface asset"
+    },
+    {
+      "id": "UI_024",
+      "name": "Checkpoint Indicator",
+      "path": "/assets/ui/UI_024_checkpoint_indicator.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Checkpoint Indicator interface asset"
+    },
+    {
+      "id": "UI_025",
+      "name": "Map Button",
+      "path": "/assets/ui/UI_025_map_button.svg",
+      "format": "svg",
+      "dimensions": "64x64",
+      "frames": 1,
+      "level": "ui",
+      "description": "Map Button interface asset"
+    },
+    {
+      "id": "MUS_001",
+      "name": "Main Menu Theme",
+      "path": "/assets/audio/music/MUS_001_main_menu.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "menu",
+      "description": "Main Menu Theme tropical loop"
+    },
+    {
+      "id": "MUS_002",
+      "name": "Swimming Pool Theme",
+      "path": "/assets/audio/music/MUS_002_swimming_pool.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": 1,
+      "description": "Swimming Pool Theme tropical loop"
+    },
+    {
+      "id": "MUS_003",
+      "name": "Water Park Theme",
+      "path": "/assets/audio/music/MUS_003_water_park.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": 2,
+      "description": "Water Park Theme tropical loop"
+    },
+    {
+      "id": "MUS_004",
+      "name": "Wildlife Park Theme",
+      "path": "/assets/audio/music/MUS_004_wildlife_park.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": 3,
+      "description": "Wildlife Park Theme tropical loop"
+    },
+    {
+      "id": "MUS_005",
+      "name": "Outbound Theme",
+      "path": "/assets/audio/music/MUS_005_outbound.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": 4,
+      "description": "Outbound Theme tropical loop"
+    },
+    {
+      "id": "MUS_006",
+      "name": "Victory Theme",
+      "path": "/assets/audio/music/MUS_006_victory.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Victory Theme tropical loop"
+    },
+    {
+      "id": "MUS_007",
+      "name": "Game Over Theme",
+      "path": "/assets/audio/music/MUS_007_game_over.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Game Over Theme tropical loop"
+    },
+    {
+      "id": "SFX_001",
+      "name": "Button Click",
+      "path": "/assets/audio/sfx/SFX_001_button_click.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Button Click sound effect"
+    },
+    {
+      "id": "SFX_002",
+      "name": "Jump",
+      "path": "/assets/audio/sfx/SFX_002_jump.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Jump sound effect"
+    },
+    {
+      "id": "SFX_003",
+      "name": "Double Jump",
+      "path": "/assets/audio/sfx/SFX_003_double_jump.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Double Jump sound effect"
+    },
+    {
+      "id": "SFX_004",
+      "name": "Landing",
+      "path": "/assets/audio/sfx/SFX_004_landing.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Landing sound effect"
+    },
+    {
+      "id": "SFX_005",
+      "name": "Running",
+      "path": "/assets/audio/sfx/SFX_005_running.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Running sound effect"
+    },
+    {
+      "id": "SFX_006",
+      "name": "Coin Pickup",
+      "path": "/assets/audio/sfx/SFX_006_coin_pickup.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Coin Pickup sound effect"
+    },
+    {
+      "id": "SFX_007",
+      "name": "Ticket Pickup",
+      "path": "/assets/audio/sfx/SFX_007_ticket_pickup.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Ticket Pickup sound effect"
+    },
+    {
+      "id": "SFX_008",
+      "name": "Golden Ticket Pickup",
+      "path": "/assets/audio/sfx/SFX_008_golden_ticket_pickup.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Golden Ticket Pickup sound effect"
+    },
+    {
+      "id": "SFX_009",
+      "name": "Treasure Chest",
+      "path": "/assets/audio/sfx/SFX_009_treasure_chest.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Treasure Chest sound effect"
+    },
+    {
+      "id": "SFX_010",
+      "name": "Water Splash",
+      "path": "/assets/audio/sfx/SFX_010_water_splash.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Water Splash sound effect"
+    },
+    {
+      "id": "SFX_011",
+      "name": "Swimming",
+      "path": "/assets/audio/sfx/SFX_011_swimming.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Swimming sound effect"
+    },
+    {
+      "id": "SFX_012",
+      "name": "Slide",
+      "path": "/assets/audio/sfx/SFX_012_slide.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Slide sound effect"
+    },
+    {
+      "id": "SFX_013",
+      "name": "Falling",
+      "path": "/assets/audio/sfx/SFX_013_falling.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Falling sound effect"
+    },
+    {
+      "id": "SFX_014",
+      "name": "Damage",
+      "path": "/assets/audio/sfx/SFX_014_damage.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Damage sound effect"
+    },
+    {
+      "id": "SFX_015",
+      "name": "Checkpoint",
+      "path": "/assets/audio/sfx/SFX_015_checkpoint.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Checkpoint sound effect"
+    },
+    {
+      "id": "SFX_016",
+      "name": "Level Unlock",
+      "path": "/assets/audio/sfx/SFX_016_level_unlock.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Level Unlock sound effect"
+    },
+    {
+      "id": "SFX_017",
+      "name": "Victory",
+      "path": "/assets/audio/sfx/SFX_017_victory.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Victory sound effect"
+    },
+    {
+      "id": "SFX_018",
+      "name": "Game Over",
+      "path": "/assets/audio/sfx/SFX_018_game_over.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Game Over sound effect"
+    },
+    {
+      "id": "SFX_019",
+      "name": "Animal Ambient",
+      "path": "/assets/audio/sfx/SFX_019_animal_ambient.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Animal Ambient sound effect"
+    },
+    {
+      "id": "SFX_020",
+      "name": "Jungle Ambient",
+      "path": "/assets/audio/sfx/SFX_020_jungle_ambient.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Jungle Ambient sound effect"
+    },
+    {
+      "id": "SFX_021",
+      "name": "Water Ambient",
+      "path": "/assets/audio/sfx/SFX_021_water_ambient.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Water Ambient sound effect"
+    },
+    {
+      "id": "SFX_022",
+      "name": "Rope Swing",
+      "path": "/assets/audio/sfx/SFX_022_rope_swing.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Rope Swing sound effect"
+    },
+    {
+      "id": "SFX_023",
+      "name": "Flying Fox",
+      "path": "/assets/audio/sfx/SFX_023_flying_fox.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Flying Fox sound effect"
+    },
+    {
+      "id": "SFX_024",
+      "name": "Collectible Magnet",
+      "path": "/assets/audio/sfx/SFX_024_collectible_magnet.wav",
+      "format": "wav",
+      "dimensions": "1x1",
+      "frames": 1,
+      "level": "all",
+      "description": "Collectible Magnet sound effect"
+    }
+  ]
+}
